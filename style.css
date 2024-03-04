@@ -1,0 +1,473 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing:border-box;
+}
+body{
+  min-width: auto;
+  min-height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  
+ 
+}
+.nav{
+    width:100vw;
+    display: flex;
+    justify-content: center;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+.navv{
+    margin-top:1%;
+    width:80vw;
+    height:19vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+#ul {
+    width:40%;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    font-size:16px;
+    color:hsl(236, 13%, 42%);
+}
+#ul li:hover{
+    cursor: pointer;
+    background-color:rgba(155, 154, 154, 0.158);
+}
+.sidebar{
+    width:70vw;
+    height:100vh;
+    position: fixed;
+    z-index: 999;
+    top:0;
+    right:0;
+    background-color: white;
+    box-shadow: -5px 5px 5px rgba(66, 63, 63, 0.589);
+    display:none;
+}
+.navvv{
+    margin-top:1%;
+    width:100%;
+    height:30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+.navvv img{
+    margin-left:50%;
+    width:22px;
+    height:22px;
+    margin-top:5%;
+}
+#ull{
+    width:70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    list-style-type: none;
+    font-size:16px;
+    color:hsl(236, 13%, 42%);
+    justify-content: flex-start;
+    color:rgb(24, 23, 23);
+    
+}
+#ull li:hover{
+   border: 0.5px solid rgba(0, 0, 0, 0.164);
+    background-color:rgba(155, 154, 154, 0.062);
+    cursor: pointer;
+
+}
+#ull li{
+    margin-top: 10px;
+}
+img{
+    cursor: pointer;
+}
+#open{
+    cursor: pointer; 
+    display:none; 
+}
+.upperbody{
+    width:80vw;
+    height:75vh;
+    display: flex;
+    
+}
+.leftupper{
+    width:65%;
+    height:100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between
+}
+
+#ludn{
+width:95%;
+height:55%;
+}
+.ludt{
+    width:95%;
+    height:35%;
+    display: flex;
+    justify-content: space-between;
+}
+.ludtn{
+    width:45%;
+    height:100%;
+    font-size:45px;
+    font-family: "Gabarito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:bolder;
+    letter-spacing: 1px;
+}
+.ludtt{
+    width:50%;
+    height:90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 15px;
+    color:hsl(236, 13%, 42%);
+    word-spacing: 2px;
+    align-items: flex-start;
+}
+.ludtt button{
+    width:140px;
+    height:45px;
+    color:white;
+    background-color: hsl(5, 85%, 63%);
+    border: none;
+    font-size: 14px;
+    font-weight: bolder;
+    letter-spacing: 2px;
+}
+.ludtt button:hover{
+    background:hsl(240, 100%, 5%);
+    cursor:pointer;
+}
+.rightupper{
+    width:40%;
+    height:100%;
+    background-color: hsl(240, 100%, 5%);
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   justify-content: space-evenly;
+ 
+   
+}
+#righttitle{
+    font-size:38px;
+    color:hsl(35, 77%, 62%);
+    font-weight: bolder;
+    width:85%;
+    margin-top:20px;
+  
+}
+#subone{
+    font-size:20px;
+    color:white;
+    font-weight: bolder;
+    text-align: justify;
+    margin-left: 20px;
+}
+#subtwo{
+    font-size:15px;
+    color:hsl(236, 13%, 42%);
+    text-align: justify;
+    margin-left: 20px;
+}
+.rightt{
+   display: flex;
+   justify-content: center;
+   align-items: flex-start;
+   flex-direction: column;
+   height:20%;
+   justify-content:space-evenly;
+   
+
+}
+#yo{
+    margin-bottom: 20px;
+}
+hr{
+    width:95%;
+    height:0.5px;
+}
+
+.lastrow{
+    margin-top:40px;
+    width:80vw;
+    height:26vh;
+    display:flex;
+    
+    justify-content: space-between;
+}
+.lastone{
+    width:32%;
+    height:26vh;
+    display:flex;
+    justify-content: space-between;
+  
+}
+.lasttwo{
+    width:32%;
+    height:26vh;
+    display:flex;
+}
+.lasthree{
+    width:32%;
+    height:26vh;
+    display:flex;
+}
+.lastone img{
+    height:90%;
+}
+.lasttwo img{
+    height:90%;
+}
+.lasthree img{
+    height:90%;
+}
+
+.lastr{
+    height:90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 20px;
+}
+.lastr h3{
+    font-size:30px;
+    color:hsl(236, 13%, 42%);
+    font-weight: bolder;
+}
+.lastr h5{
+    font-size:18px;
+    color:hsl(240, 100%, 5%);
+    font-weight: bolder;
+}
+.lastr p {
+    font-size:16px;
+    color:hsl(236, 13%, 42%);
+    
+}
+#ludnphone{
+    width:95%;
+    height:55%;
+    display:none;
+    }
+    
+
+@media only screen and (max-width: 600px){
+   #ul{
+    display:none
+   }
+   #open{
+    display:flex;
+   }
+   #ludnphone{
+    width:95%;
+    height:45%;
+    display:flex;
+    }
+    #ludn{
+        display:none;
+    }
+    
+    img{
+        cursor: pointer;
+    }
+    
+    .upperbody{
+        width:95vw;
+        height:1050px;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .leftupper{
+        width:100%;
+        height:680px;
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        flex-direction: column;
+        justify-content:normal;
+    }
+    
+    #ludnphone{
+    width:100%;
+    height:50%;
+    margin-bottom:20px;
+    }
+    .ludt{
+        width:95%;
+        height:45%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .ludtn{
+        width:100%;
+        height:100%;
+        font-size:45px;
+        font-family: "Gabarito", sans-serif;
+        font-optical-sizing: auto;
+        font-weight:bolder;
+        letter-spacing: 1px;
+    }
+    .ludtt{
+        width:100%;
+        height:100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-between;
+        font-size: 15px;
+        color:hsl(236, 13%, 42%);
+        word-spacing: 2px;
+        align-items: flex-start;
+    }
+    .ludtt button{
+        width:140px;
+        height:45px;
+        color:white;
+        background-color: hsl(5, 85%, 63%);
+        border: none;
+        font-size: 14px;
+        font-weight: bolder;
+        letter-spacing: 2px;
+    }
+    .ludtt button:hover{
+        background:hsl(240, 100%, 5%);
+        cursor:pointer;
+    }
+    .rightupper{
+        width:100%;
+        height:40%;
+        background-color: hsl(240, 100%, 5%);
+       display:flex;
+       justify-content: center;
+       align-items: center;
+       flex-direction: column;
+       justify-content: space-evenly;
+     
+       
+    }
+    #righttitle{
+        font-size:38px;
+        color:hsl(35, 77%, 62%);
+        font-weight: bolder;
+        width:85%;
+        margin-top:20px;
+       
+      
+    }
+    #subone{
+        font-size:20px;
+        color:white;
+        font-weight: bolder;
+        text-align: justify;
+        margin-left: 20px;
+    }
+    #subtwo{
+        font-size:15px;
+        color:hsl(236, 13%, 42%);
+        text-align: justify;
+        margin-left: 20px;
+    }
+    .rightt{
+       display: flex;
+       justify-content: center;
+       align-items: flex-start;
+       flex-direction: column;
+       height:20%;
+       justify-content:space-evenly;
+       
+    
+    }
+    #yo{
+        margin-bottom: 20px;
+    }
+    hr{
+        width:95%;
+        height:0.5px;
+    }
+    
+    .lastrow{
+      
+        width:95vw;
+        height:80vh;
+        display:flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .lastone{
+        width:100%;
+        height:26vh;
+        display:flex;
+        justify-content: space-between;
+      
+    }
+    .lasttwo{
+        width:100%;
+        height:26vh;
+        display:flex;
+    }
+    .lasthree{
+        width:100%;
+        height:26vh;
+        display:flex;
+    }
+    .lastone img{
+        height:90%;
+    }
+    .lasttwo img{
+        height:90%;
+    }
+    .lasthree img{
+        height:90%;
+    }
+    
+    .lastr{
+        height:90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin-left: 20px;
+    }
+    .lastr h3{
+        font-size:30px;
+        color:hsl(236, 13%, 42%);
+        font-weight: bolder;
+    }
+    .lastr h5{
+        font-size:18px;
+        color:hsl(240, 100%, 5%);
+        font-weight: bolder;
+    }
+    .lastr p {
+        font-size:16px;
+        color:hsl(236, 13%, 42%);
+        
+    }
+}
